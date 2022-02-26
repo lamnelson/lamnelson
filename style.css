@@ -581,7 +581,18 @@
     margin-top: 2vh;
     margin-left: 3vh;
     margin-right: 3vh;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
+
+#footer .icon:hover{
+    color: rgba(0, 0, 0, 0.664);
+}
+
+
 
 /**Font Awesome Icons**/
 ul.icons {
