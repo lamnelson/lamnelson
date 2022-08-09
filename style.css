@@ -1,4 +1,4 @@
-*, html, body{
+*, html, body {
     box-sizing: border-box;
     line-height: normal;
     font-family: 'Poppins', sans-serif;
@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.container{
+.container {
     display: flex; 
 	align-items: center; 
 	justify-content: center;
@@ -14,30 +14,30 @@
 	align-content: center;
 }
 
-.row{
+.row {
     flex-direction: row;
 }
 
-.column{
+.column {
     flex-direction: column;
 } 
 
 /**Landing/Home**/
-.landing-wrapper{
+.landing-wrapper {
     height: 100vh;
     background-color: #000;
 }
 
-.landing-text{
+.landing-text {
     color: #fff;
 }
 
-.landing-text h1{
+.landing-text h1 {
     font-size: 35px;
     font-weight: 600;
 }
 
-.landing-text h2{
+.landing-text h2 {
     font-size: 25px;
     font-style: italic;
     font-weight: 300;
@@ -46,7 +46,7 @@
 
 
     /**Image Carousel**/
-    .carousel{
+    .carousel {
         perspective: 700px;
         overflow: hidden;
         width: 100%;
@@ -70,14 +70,13 @@
 		padding: 0 0px / 2;
     }	
 
-    .carousel-img:not(:first-of-type) 
-    {
+    .carousel-img:not(:first-of-type) {
 		position: absolute;
 		left: 0;
 		top: 0;
 	}
     
-    button{
+    button {
         z-index: 1;
         cursor: pointer;
         margin: 0 100px;
@@ -91,14 +90,14 @@
         padding: 0px 12px;
     }
 
-.landing-wrapper p{
+.landing-wrapper p {
     color:#fff;
     margin-top: 5vh;
     font-size: 19px;
     font-weight: 200;
 }
 
-#landing .icon{
+#landing .icon {
     margin-top: 1vh;
     margin-left: 3vh;
     margin-right: 3vh;
@@ -109,54 +108,55 @@
     transition:.5s;
 }
 
-#landing .icon:hover{
+#landing .icon:hover {
     color: rgba(255, 255, 255, 0.664);
 }
 
 /**Quote**/
-.quote-wrapper{
+.quote-wrapper {
     height: 45vh;
     background-color: #fff;
 }
 
-.quote-wrapper h1{
+.quote-wrapper h1 {
     font-family: 'Roboto Serif', sans-serif;
     font-size: 20px;
     font-weight: 300;
 }
 
-.quote-wrapper h2{
+.quote-wrapper h2 {
     margin-top: 2vh;
     font-family: 'Roboto Serif', sans-serif;
     font-size: 16px;
     font-weight: 200;
 }
+
 /**About Me**/
-.about-wrapper{
+.about-wrapper {
     padding-top: 10vh;
     padding-bottom: 3vh;
     min-height: 100vh;
     background-color: #000;
 }
 
-.title{
+.title {
     color: #fff;
     font-weight: 300;
     font-size: 30px;
 }
 
-.about-panel-wrapper{
+.about-panel-wrapper {
     width: 100%;
 }
 
-.about-panel{
+.about-panel {
     width: 55vh;
     height: 73vh;
     margin: 6vh;
 }
 
     /**Panel 1**/
-    .bar-1-1{
+    .bar-1-1 {
         height: 13px;
         width: 100%;
         border-top-left-radius: 10vh;
@@ -164,7 +164,7 @@
         background-color: rgba(255, 255, 255, 0.384);
     }
 
-    .bar-1-2{
+    .bar-1-2 {
         z-index: 1;
         height: 3vh;
         width: 100%;
@@ -172,30 +172,30 @@
         background-color: rgba(255, 255, 255, 0.555);
     }
 
-    .bar-header{
+    .bar-header {
         height: 3vh;
         width: 18vh;
         background-color: rgb(44, 44, 44);
     }
 
-    .bar-header p{
+    .bar-header p {
         color: #fff;
         font-size: 13px;
         font-weight: 200;
     }
 
-    .exit-bar{
+    .exit-bar {
         margin-left: 5vh;
     }
 
-    .panel-1-inside-wrapper{
+    .panel-1-inside-wrapper {
         height: 68vh;
         width: 100%;
         background-color: rgb(44, 44, 44);
         overflow-y: scroll;
     }
     
-    .panel-1-text{
+    .panel-1-text {
         margin-left: 2vh;
         padding-top: 1vh;
         padding-bottom: 4vh;
@@ -203,11 +203,11 @@
         font-weight: 300;
     }
 
-    .tab{
+    .tab {
         margin-left: 4vh;
     }
 
-    .contact-link{
+    .contact-link {
         font-family: 'Courier New', Courier, monospace;
         color: rgb(101, 221, 101);
         text-decoration: none;
@@ -219,72 +219,71 @@
         transition:.5s;
     }
 
-    .contact-link:hover{
+    .contact-link:hover {
         color: rgb(14, 253, 14);
     }
 
-    .purple{
+    .purple {
         font-family: 'Courier New', Courier, monospace;
         color: rgb(236, 27, 236);
     }
 
-    .grey{
+    .grey {
         font-family: 'Courier New', Courier, monospace;
         color: rgb(160, 160, 160);
     }
 
-    .blue{
+    .blue {
         font-family: 'Courier New', Courier, monospace;
         color: rgb(0, 140, 255);
     }
     
-    .tan{
+    .tan {
         font-family: 'Courier New', Courier, monospace;
         color: rgb(243, 175, 86);
     }
 
-    .red{
+    .red {
         font-family: 'Courier New', Courier, monospace;
         color: rgb(255, 6, 6);
     }
 
-    .green{
+    .green {
         font-family: 'Courier New', Courier, monospace;
         color: rgb(101, 221, 101);
     }
 
     /**Panel 2**/
-    .about-panel-2-wrapper{
+    .about-panel-2-wrapper {
         background-color: rgba(255, 255, 255, 0.945);
         border-radius: 2vh;
     }
 
-    .about-panel-2-wrapper h1{
+    .about-panel-2-wrapper h1 {
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 7vh;
         height: 0;
     }
 
-    .panel-bar
-    {
+    .panel-bar {
         width: 40vh;
         height: 1px;
         background-color: rgba(0, 0, 0, 0.945);
         border-radius: 50px;
     }
 
-    .panel-2-text{
+    .panel-2-text {
         width: 90%;
         height: 60vh;
     }
 
-    .panel-2-element{
+    .panel-2-element {
         height: 33%;
         width: 100%;
     }
 
-    .panel-2-element h2{
+    .panel-2-element h2 {
         font-size: 15px;
         font-weight: 700;
         font-style: italic;
@@ -292,158 +291,158 @@
     }
 
         /**Language**/
-        .language-box{
+        .language-box {
             height: 13vh;
             width: 23vh;
         }
 
-        .panel-2-header{
+        .panel-2-header {
             font-size: 16px;
             font-weight: 400;
         }
 
-        .panel-2-subheader{
+        .panel-2-subheader {
             font-size: 11px;
             font-weight: 400;
             font-style: italic;
         }
         
-        .panel-2-body{
+        .panel-2-body {
             font-size: 10px;
             font-weight: 300;
         }
 
         /**Music**/
-        .music-box{
+        .music-box {
             height: 15vh;
             width: 15vh;
         }
 
-        .music-header{
+        .music-header {
             font-weight: 400;
         }
 
         /**Track**/
-        .track-wrapper{
+        .track-wrapper {
             width: 90%;
             margin-top: 2vh;
         }
 
 /**Education**/
-.education-wrapper{
+.education-wrapper {
     min-height: 100vh;
     background-color: #000;
     padding-bottom: 3vh;
 }
 
-.education-panel-wrapper{
+.education-panel-wrapper {
     width: 100%;
 }
 
-.education-panel{
+.education-panel {
     width: 55vh;
     height: 73vh;
     margin: 6vh;
 }
 
     /**Panel 3**/
-    .panel-3-wrapper{
+    .panel-3-wrapper {
         background-color: rgba(255, 255, 255, 0.945);
         border-radius: 2vh;
         width: 100%;
         height: 100%;
     }
 
-    .school-logo{
+    .school-logo {
         width: 14vh;
         height: 10vh;
     }
 
-    .panel-3-header{
+    .panel-3-header {
         width: 90%;
     }
 
-    .panel-3-school-header{
+    .panel-3-school-header {
         width: 30vh;
         height: 15vh;
         margin-left: 2vh;
     }
 
-    .panel-3-school-header h3{
+    .panel-3-school-header h3 {
         font-size: 18px;
         font-weight: 700;
     }
 
-    .panel-3-school-header p{
+    .panel-3-school-header p {
         font-size: 14px;
         font-weight: 500;
     }
 
-    .panel-3-school-header p:last-child{
+    .panel-3-school-header p:last-child {
         font-size: 13px;
         font-weight: 400;
     }
 
-    .italic{
+    .italic {
         font-style: italic;
     }
 
-    .panel-3-text{
+    .panel-3-text {
         width: 90%;
         height: 54vh;
     }
 
-    .school-lbr{
+    .school-lbr {
         height: 2vh;
         width: 100%;
     }
 
-    .course-name{
+    .course-name {
         font-weight: 300;
     }
 
-    .panel-3-text h5{
+    .panel-3-text h5 {
         font-weight: 600;
         font-size: 15px;
     }
 
-    .panel-3-text p{
+    .panel-3-text p {
         font-size: 14px;
     }
 
     /**Panel 4**/
-    .panel-4-wrapper{
+    .panel-4-wrapper {
         background-color: rgba(255, 255, 255, 0.945);
         border-radius: 2vh;
         width: 100%;
         height: 100%;
     }
 
-    .panel-4-text-wrapper{
+    .panel-4-text-wrapper {
         margin-top: 3vh;
         height: 57vh;
         width: 90%;
     }
 
-    .panel-4-element{
+    .panel-4-element {
         height: 33%;
         width: 100%;
     }
 
         /**Dual**/
-        .dual-element{
+        .dual-element {
             width: 20vh;
             height: 12vh;
             margin-left: 1vh;
             margin-right: 1vh;
         }
 
-        .dual-element h5{
+        .dual-element h5 {
             font-size: 15px;
             font-weight: 500;
         }
 
-        .dual-element h6{
+        .dual-element h6 {
             font-size: 10px;
             font-weight: 500;
             text-align: center;
@@ -452,17 +451,17 @@
             margin-bottom: 5px;
         }
 
-        .dual-element p{
+        .dual-element p {
             text-align: center;
             font-size: 10px;
             font-weight: 300;
         }
 
-        .skill-subtext{
+        .skill-subtext {
             height: 8vh;
         }
 
-        .panel-4-bar{
+        .panel-4-bar {
             width: 40vh;
             height: 1px;
             background-color: rgba(0, 0, 0, 0.945);
@@ -471,19 +470,19 @@
         }
 
 /**Projects**/
-.project-wrapper{
+.project-wrapper {
     min-height: 100vh;
     background-color: #000;
 }
 
-.project-wrapper-box{
+.project-wrapper-box {
     margin-top: 3vh;
     min-height: 80vh;
     width: 100%;
     max-width: 150vh;
 }
 
-.project{
+.project {
     border-radius: 5vh;
     background-color: #fffffff3;
     position: relative;
@@ -553,18 +552,18 @@
 }
 
 /**Footer**/
-.footer-wrapper{
+.footer-wrapper {
     background-color: #fff;
     height: 20vh;
 }
 
-.footer-wrapper p{
+.footer-wrapper p {
     font-style: italic;
     font-size: 15px;
     font-weight: 400;
 }
 
-.bar{
+.bar {
     height: 2px;
     border-radius: 5vh;
     width: 80%;
@@ -572,11 +571,11 @@
     margin-bottom: 10vh;
 }
 
-.bar:last-child{
+.bar:last-child {
     margin-top: 7vh;
 }
 
-.footer-wrapper .icon{
+.footer-wrapper .icon {
     color:rgb(0, 0, 0);
     margin-top: 2vh;
     margin-left: 3vh;
@@ -588,7 +587,7 @@
     transition:.5s;
 }
 
-#footer .icon:hover{
+#footer .icon:hover {
     color: rgba(0, 0, 0, 0.664);
 }
 
@@ -637,4 +636,252 @@ ul.icons {
 
 .icon.brands:before {
     font-family: 'Font Awesome 5 Brands';
+}
+
+/**Responsive Format**/
+@media screen and (max-device-width: 480px) {
+
+    /**Landing Page**/
+    .landing-text h1 {
+        font-size: 26px;
+    }
+
+    .landing-text h2 {
+        font-size: 20px;
+    }
+
+    .carousel {
+        perspective: 400px;
+        overflow: hidden;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 0 0 auto;
+	}
+
+    .carousel-img {
+		width: 40vh;
+        height: 100%;
+		box-sizing: border-box;
+		padding: 0 0px / 2;
+    }	
+
+    button {
+        z-index: 1;
+        cursor: pointer;
+        margin: 3px 70px;
+        font-weight: 200;
+        font-size: 17px;
+                
+        color: #fff;
+        border-radius: 25px;
+        background-color: rgb(255,255,255,0.1);
+        border: 1px solid white;
+        padding: 0px 10px;
+    }
+
+    #typewriter {
+        font-size: 16px;
+    }
+
+    /**Quote**/
+    .quote-wrapper h1 {
+        font-family: 'Roboto Serif', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .quote-wrapper h2 {
+        margin-top: 2vh;
+        font-family: 'Roboto Serif', sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    /**Panel 2**/
+    .panel-bar {
+        width: 80%;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.945);
+        border-radius: 50px;
+    }
+
+    .spacer {
+        width: 2vh;
+    }
+
+    .language-box {
+        height: auto;
+        width: auto;
+        padding-bottom: 5vh;
+    }
+
+    .panel-2-element h2 {
+        font-size: 13px;
+        font-weight: 700;
+        font-style: italic;
+        margin-bottom: 4vh;
+    }
+
+        /**Language**/
+        .panel-2-header {
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .panel-2-subheader {
+            font-size: 12px;
+            font-weight: 400;
+            font-style: italic;
+        }
+        
+        .panel-2-body {
+            font-size: 11px;
+            font-weight: 300;
+        }
+
+        /**Music**/
+        .music-box {
+            width: auto;
+            height: auto;
+            padding: 2vh;
+            padding-top: 0;
+            padding-bottom: 3vh;
+        }
+
+        .music-header {
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            height: auto;
+        }
+
+        /**Track**/
+        .track-wrapper {
+            width: 87%;
+        }
+
+        .track-header {
+            height: 3vh;
+            margin-bottom: 2vh;
+        }
+
+    /**Panel 3**/
+    .school-logo {
+        width: 13vh;
+        height: 9vh;
+    }
+
+    .panel-3-header {
+        height: 15vh;
+    }
+
+    .panel-3-school-header {
+        width: auto;
+        height: auto;
+    }
+
+    .panel-3-school-header h3 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .panel-3-school-header p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .panel-3-school-header p:last-child {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .panel-3-text h3 {
+        font-size: 15px;
+    }
+
+    .panel-3-text h4 {
+        font-size: 13px;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    .course-name {
+        font-weight: 300;
+    }
+
+    .panel-3-text p {
+        font-size: 13px;
+    }
+
+    /**Panel 4**/
+    .panel-4-element {
+        height: 33%;
+        width: 100%;
+    }
+    
+    .panel-4-element .panel-bar {
+        margin-bottom: 2vh;
+    }
+    
+        /**Dual**/
+        .dual-element {
+            margin-top: 2vh;
+            width: 13vh;
+            height: 10vh;
+        }
+
+        .dual-element h5 {
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .dual-element h6 {
+            font-size: 10px;
+            font-weight: 500;
+            text-align: center;
+            font-style: italic;
+            margin-top: 2px;
+            margin-bottom: 5px;
+        }
+
+        .dual-element p {
+            text-align: center;
+            font-size: 9px;
+            font-weight: 300;
+        }
+
+        .skill-subtext {
+            height: auto;
+            width: auto;
+            margin-top: 1vh;
+        }
+
+        .panel-4-bar {
+            width: 40vh;
+            height: 1px;
+            background-color: rgba(0, 0, 0, 0.945);
+            border-radius: 50px;
+            margin-bottom: 2vh;
+        }
+
+    /**Projects**/
+    .img-description h2{
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .img-description p{
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    .img-description:hover {
+        opacity: 1;
+    }
 }
