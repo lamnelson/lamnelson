@@ -362,6 +362,17 @@
         width: 90%;
     }
 
+    .panel-3-scroll {
+        padding-bottom: 10vh;
+        overflow-y: scroll;
+        background:rgb(0, 0, 0, 0.08);
+        height: 90%;
+        width: 100%;
+        border-radius: 1vh;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .panel-3-school-header {
         width: 30vh;
         height: 15vh;
@@ -421,7 +432,7 @@
     .panel-4-text-wrapper {
         margin-top: 3vh;
         height: 57vh;
-        width: 90%;
+        width: 96%;
     }
 
     .panel-4-element {
@@ -461,7 +472,7 @@
             height: 8vh;
         }
 
-        .panel-4-bar {
+        .panel-4-wrapper .panel-bar {
             width: 40vh;
             height: 1px;
             background-color: rgba(0, 0, 0, 0.945);
@@ -662,7 +673,7 @@ ul.icons {
 	}
 
     .carousel-img {
-		width: 40vh;
+		width: 30vh;
         height: 100%;
 		box-sizing: border-box;
 		padding: 0 0px / 2;
@@ -709,46 +720,53 @@ ul.icons {
     }
 
     .spacer {
-        width: 2vh;
+        width: 5vh;
+        height: 100%;
     }
 
     .language-box {
         height: auto;
         width: auto;
-        padding-bottom: 5vh;
+    }
+    
+    .panel-2-element h2 {
+        font-size: 11px;
+        font-weight: 600;
+        font-style: italic;
+        margin-bottom: 3vh;
     }
 
-    .panel-2-element h2 {
-        font-size: 13px;
-        font-weight: 700;
-        font-style: italic;
-        margin-bottom: 4vh;
+    .language-header{
+        margin-bottom: 5vh;
     }
 
         /**Language**/
         .panel-2-header {
-            font-size: 15px;
+            font-size: 13px;
             font-weight: 400;
         }
 
         .panel-2-subheader {
-            font-size: 12px;
+            font-size: 9px;
             font-weight: 400;
             font-style: italic;
         }
         
         .panel-2-body {
-            font-size: 11px;
+            font-size: 9px;
             font-weight: 300;
         }
 
+        .language-box {
+            height: 7vh;
+        }
         /**Music**/
         .music-box {
             width: auto;
             height: auto;
-            padding: 2vh;
+            padding: 1vh;
             padding-top: 0;
-            padding-bottom: 3vh;
+            padding-bottom: 1vh;
         }
 
         .music-header {
@@ -760,22 +778,23 @@ ul.icons {
 
         /**Track**/
         .track-wrapper {
-            width: 87%;
+            width: 80%;
         }
 
         .track-header {
             height: 3vh;
-            margin-bottom: 2vh;
+            margin-top: 1vh;
+            margin-bottom: 1vh;
         }
 
     /**Panel 3**/
     .school-logo {
-        width: 13vh;
+        width: 11vh;
         height: 9vh;
     }
 
     .panel-3-header {
-        height: 15vh;
+        height: 13vh;
     }
 
     .panel-3-school-header {
@@ -789,7 +808,7 @@ ul.icons {
     }
 
     .panel-3-school-header p {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 500;
     }
 
@@ -816,6 +835,7 @@ ul.icons {
 
     .panel-3-text p {
         font-size: 13px;
+        height: auto;
     }
 
     /**Panel 4**/
@@ -830,9 +850,11 @@ ul.icons {
     
         /**Dual**/
         .dual-element {
-            margin-top: 2vh;
-            width: 13vh;
-            height: 10vh;
+            margin-top: 1vh;
+            width: 12vh;
+            height: 11vh;
+            margin-left: 10px;
+            margin-right: 10px;
         }
 
         .dual-element h5 {
@@ -841,7 +863,8 @@ ul.icons {
         }
 
         .dual-element h6 {
-            font-size: 10px;
+            font-size: 8px;
+            line-height: 1;
             font-weight: 500;
             text-align: center;
             font-style: italic;
@@ -851,8 +874,9 @@ ul.icons {
 
         .dual-element p {
             text-align: center;
-            font-size: 9px;
-            font-weight: 300;
+            font-size: 8px;
+            font-weight: 400;
+            line-height: 1;
         }
 
         .skill-subtext {
